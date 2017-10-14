@@ -50,5 +50,4 @@ def turn(board)
   end
     return move
   turn(board)
-  end
 end
