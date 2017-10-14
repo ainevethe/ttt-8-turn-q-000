@@ -42,6 +42,7 @@ def turn(board)
   if position_valid?(board, index) == true
     return move
   else turn(board)
+  end
 end
 
 def move(board, index, token = "X")
