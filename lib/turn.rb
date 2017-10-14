@@ -49,6 +49,6 @@ def turn(board)
     input_to_index(input)
   end
     return move
-  else turn(board)
+  turn(board)
   end
 end
