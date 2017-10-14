@@ -36,15 +36,16 @@ def valid_move?(board, index)
     end
 end
 
+def move(board, index, token = "X")
+  board[index] = token
+end
+
 def turn(board)
   puts "Please enter 1-9"
   input = gets.strip
-  if position_valid?(board,index) == true
+  if position_valid?(board,index)
     return move
   else turn(board)
   end
 end
 
-def move(board, index, token = "X")
-  board[index] = token
-end
