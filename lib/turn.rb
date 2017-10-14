@@ -1,6 +1,6 @@
 
 def display_board(board)
-  
+
   position_1 = board[0]
   position_2 = board[1]
   position_3 = board[2]
@@ -16,7 +16,7 @@ def display_board(board)
   puts " #{position_4} | #{position_5} | #{position_6} "
   puts "-----------"
   puts " #{position_7} | #{position_8} | #{position_9} "
-  
+
 end
 
 
@@ -40,4 +40,3 @@ end
 def move(board, index, token)
 
 end
-
